@@ -4,10 +4,58 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://kit.fontawesome.com/1308ca7b66.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="nav">
-		
+	<div class="container">
+		<div class="nav">
+			<ul>
+				<li><a href="#"><i class="fas fa-chalkboard-teacher"></i></a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Homework</a></li>
+				<li><a href="#" class="active">Settings</a></li>
+			</ul>
+			<div class="logo"><img src="img/av_64.png" alt="logo"></div>
+		</div>
+		<h1>Settings</h1>
+		<div class="header">
+			<div class="block1"> avatar</div>
+			<div class="block2">Students info</div>
+			<div class="block3">change password</div>
+		</div>
+		<div class="content">
+			<div class="block1">
+				<form action="#" method="post">
+				<label for="avatar" class="avatar">
+					<img src="img/av_256.png" class="avatar" alt="alt">
+					<div class="btn">
+						<span>Choose photo</span>
+					</div>
+				</label>
+					<input type="file" id="avatar">
+				</form>
+				
+			</div>
+			<div class="block2">
+				<form action="#" method="post">
+					<input type="text" placeholder="First name">
+					<input type="text" placeholder="Last name">
+					<input type="email" placeholder="Email">
+					<input type="tel" placeholder="Phone number" class="tarea">
+					<input type="text" placeholder="Address" >
+					<input type="text" placeholder="FB link">
+					<input type="submit" value="Save changes" class="btn btn_l">
+				</form>
+			</div>
+			<div class="block3">
+				<form action="#" method="post">
+					<input type="password" placeholder="Old password">
+					<input type="password" placeholder="New password">
+					<input type="password" placeholder="Repeat password">
+					<input type="submit" value="Save changes" class="btn btn_l">
+				</form>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
